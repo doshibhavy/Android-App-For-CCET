@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/main_timet"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Time Table" />
+
+    <Button
+        android:id="@+id/main_event"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Event" />
+
+    <Button
+        android:id="@+id/main_result"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/main_event"
+        android:layout_alignLeft="@+id/main_event"
+        android:layout_marginBottom="34dp"
+        android:text="Result" />
+
+    <Button
+        android:id="@+id/main_urdata"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/main_event"
+        android:layout_below="@+id/main_event"
+        android:layout_marginTop="42dp"
+        android:text="View Your Data" />
+
+</RelativeLayout>
